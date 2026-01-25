@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration for an AWS Lambda function that processes S3 bucket events with a 5-minute timeout and 512 MB memory allocation",
+    "format": "json",
+    "solution_criteria": "Valid JSON with Lambda function configuration including timeout set to 300 seconds, memory set to 512, and event source mapping for S3"
+  },
+  {
+    "task": "Write a Python function that takes an AWS CloudWatch log event and extracts all unique EC2 instance IDs from the log messages using regex pattern matching",
+    "format": "python",
+    "solution_criteria": "Function accepts a log event string, uses regex to find instance IDs matching pattern 'i-' followed by 17 alphanumeric characters, returns a set of unique IDs"
+  },
+  {
+    "task": "Create a regex pattern that validates AWS S3 bucket names according to AWS naming rules (3-63 characters, lowercase letters/numbers/hyphens only, no consecutive hyphens, no leading/trailing hyphens)",
+    "format": "regex",
+    "solution_criteria": "Regex pattern correctly validates S3 bucket names with all constraints: length, character set, no consecutive or leading/trailing hyphens"
+  }
+]
